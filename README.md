@@ -9,7 +9,7 @@
 - [License](#license)
 
 ## Description
-This banking application was created with create-react-app and uses React including react-router-dom for navigation routing, Bootstrap and Javascript.  The application includes a home, login, create account and ability to deposit and withdraw from the account.   There is also an administrative screen that displays user account information.
+This banking application was created with create-react-app and uses React including react-router-dom for navigation routing, Bootstrap and Javascript.  The application includes a home, login, create account and ability to deposit and withdraw from the account.   There is also an administrative screen that displays user account information.  The application is being hosted on AWS.
 
 ## Setting Up and Running The Application
 1) Create a react application using create-react-app.  
@@ -36,6 +36,7 @@ This application is made up of 10 main files
 •	Not show Deposit and Withdraw link options until user is logged in.
 
 ## Demo
+* [Banking Demo](http://pamela-archerbankingapplication.s3-website-us-west-1.amazonaws.com/)
 
 ## License
 
