@@ -18,22 +18,23 @@ This banking application was created with create-react-app and uses React includ
 
 ### Setting up the bank-react create-react-app application
 1. Rename the new bank-react directory as we will be creating a new one with the same name with create-react-app.
-2. Within the bank-react directory, run the following commands to create the create-react-app application.  It will also install react, react-dom and react-scripts using its generic template.  Change to the new directory and run npm to install additional libraries.   This will create a new react application.     
-&nbsp;   npx create-react-app bank-react  
-&nbsp;   cd bank-react  
-&nbsp;   npm install bootstrap axios react-router-dom react-bootstrap  
+2. Within the bank-react directory, run the following commands to create the create-react-app application.  It will also install react, react-dom and react-scripts using its generic template.  Change to the new directory and run npm to install additional libraries.   This will create a new react application. 
+<br></br>    
+&nbsp;&nbsp;&nbsp;   npx create-react-app bank-react  
+&nbsp;&nbsp;&nbsp;   cd bank-react  
+&nbsp;&nbsp;&nbsp;   npm install bootstrap axios react-router-dom react-bootstrap  
 3. Start up the create-react-app react generic application to make sure installation was successful.  It should start on localhost port 3000.  Then stop the app.
 4. Delete everything from the new app's public and src directory.   Copy the files from the downloaded project which you renamed.
 5. The bank-react application should be ready to run.  Run the npm command and make sure the app comes up on port 3000.  You cannot log in yet as it relies on the bank-api backend server so lets get that project set up.
-     npm start  
+&nbsp;&nbsp;&nbsp;   npm start  
 
 ### Setting up the node backend API server application
 1. Go to the bank-api directory by issuing the command cd ../bank-api
 2. Run the command below to create a node app and install dependencies
-    npm init -y  
-    npm install express cors mongodb  
+&nbsp;&nbsp;&nbsp;   npm init -y  
+&nbsp;&nbsp;&nbsp;   npm install express cors mongodb  
 3. Start up the server by issuing this command.   It will start the bank-api app on localhost:4000;
-    node index,js
+&nbsp;&nbsp;&nbsp;   node index,js
 
 YOU SHOULD NOW BE UP AND RUNNING.  Run through the application functionality.  
 
