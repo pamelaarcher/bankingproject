@@ -6,7 +6,7 @@
 - [Installation Guidelines](#installation-guidelines)
 - [Technology Used](#technology-used)
 - [Features](#features)
-- [Roadmap of Future Improvements](#roadmap)
+- [Roadmap of Future Improvements](#roadmap-of-future-improvements)
 - [Demo](#demo)
 - [License](#license)
 
