@@ -4,7 +4,7 @@
 
 - [Description](#description)
 - [Installation Guidelines](#installation)
-- [Features]
+- [Features] (#features)
 - [Roadmap of Future Improvements](#roadmap)
 - [Demo](#demo)
 - [License](#license)
