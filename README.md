@@ -14,40 +14,40 @@
 This banking application was created with create-react-app and uses React including react-router-dom for navigation routing, Bootstrap and Javascript.  The application includes a home, login, create account and ability to deposit and withdraw from the account.   There is also an administrative screen that displays user account information.  The application is being hosted on AWS.   This application was built for the MIT fullstack web development program and demonstrates the use of technologies including react, node, express, and backend Mongodb database.
 
 ## Installation Guidelines 
-1) Clone this project to your local desktop.   There will be two subdirectories, bank-api (a back end server using node and express) and bank-react (a client side react project built with create-react-app.  
+1. Clone this project to your local desktop.   There will be two subdirectories, bank-api (a back end server using node and express) and bank-react (a client side react project built with create-react-app.  
 
 ### Setting up the bank-react create-react-app application
-1) Rename the new bank-react directory as we will be creating a new one with the same name with create-react-app.
-2) Within the bank-react directory, run the following commands to create the create-react-app application.  It will also install react, react-dom and react-scripts using its generic template.  Change to the new directory and run npm to install additional libraries.   This will create a new react application.   
+1. Rename the new bank-react directory as we will be creating a new one with the same name with create-react-app.
+2. Within the bank-react directory, run the following commands to create the create-react-app application.  It will also install react, react-dom and react-scripts using its generic template.  Change to the new directory and run npm to install additional libraries.   This will create a new react application.   
     npx create-react-app bank-react
     cd bank-react
     npm install bootstrap axios react-router-dom react-bootstrap
-3) Start up the create-react-app react generic application to make sure installation was successful.  It should start on localhost port 3000.  Then stop the app.
-4) Delete everything from the new app's public and src directory.   Copy the files from the downloaded project which you renamed.
-5) The bank-react application should be ready to run.  Run the npm command and make sure the app comes up on port 3000.  You cannot log in yet as it relies on the bank-api backend server so lets get that project set up.
+3. Start up the create-react-app react generic application to make sure installation was successful.  It should start on localhost port 3000.  Then stop the app.
+4. Delete everything from the new app's public and src directory.   Copy the files from the downloaded project which you renamed.
+5. The bank-react application should be ready to run.  Run the npm command and make sure the app comes up on port 3000.  You cannot log in yet as it relies on the bank-api backend server so lets get that project set up.
      npm start
 
 ### Setting up the node backend API server application
-1) Go to the bank-api directory by issuing the command cd ../bank-api
-2) Run the command below to create a node app and install dependencies
+1. Go to the bank-api directory by issuing the command cd ../bank-api
+2. Run the command below to create a node app and install dependencies
     npm init -y
     npm install express cors mongodb
-3) Start up the server by issuing this command.   It will start the bank-api app on localhost:4000;
+3. Start up the server by issuing this command.   It will start the bank-api app on localhost:4000;
     node index,js
 
 YOU SHOULD NOW BE UP AND RUNNING.  Run through the application functionality.  
 
 ## Technology Used
 The client side application requires the following frameworks and libraries.   It runs on top of React.
-    Create_React_App - this installs the React framework along with react-dom and react-scripts and sets up a generic React project
-    React-Router-Dom - allows for hash URL routing across the different functions
-    Bootstrap - CSS styling library    
-    Axios - Allows http calls to the backend api server
+    * Create_React_App - this installs the React framework along with react-dom and react-scripts and sets up a generic React project
+    * React-Router-Dom - allows for hash URL routing across the different functions
+    * Bootstrap - CSS styling library    
+    * Axios - Allows http calls to the backend api server
     
 The server side application requires the following frameworks and libraries.   It runs on top of Node.
-    Node - Javascript code runtime environment 
-    Express - Fast, unopinionated, minimalist web framework for Node.js that supports many functions including routing which is used by this application.
-    CORS - A node.js package that provides a Connect/Express middleware that can be used to enable CORS with various options
+    * Node - Javascript code runtime environment 
+    * Express - Fast, unopinionated, minimalist web framework for Node.js that supports many functions including routing which is used by this application.
+    * CORS - A node.js package that provides a Connect/Express middleware that can be used to enable CORS with various options
      
 ## Features
 This application is made up of 10 main functions
