@@ -39,15 +39,15 @@ YOU SHOULD NOW BE UP AND RUNNING.  Run through the application functionality.
 
 ## Technology Used
 The client side application requires the following frameworks and libraries.   It runs on top of React.
- - <b> Create_React_App </b> - this installs the React framework along with react-dom and react-scripts and sets up a generic React project
- - <b> React-Router-Dom </b> - allows for hash URL routing across the different functions
- - Bootstrap - CSS styling library    
- - Axios - Allows http calls to the backend api server
+ - <b>Create_React_App</b> - this installs the React framework along with react-dom and react-scripts and sets up a generic React project
+ - <b>React-Router-Dom</b> - allows for hash URL routing across the different functions
+ - <b>Bootstrap</b> - CSS styling library    
+ - <b>Axios</b> - Allows http calls to the backend api server
     
 The server side application requires the following frameworks and libraries.   It runs on top of Node.
- - Node - Javascript code runtime environment 
- - Express - Fast, unopinionated, minimalist web framework for Node.js that supports many functions including routing which is used by this application.
- - CORS - A node.js package that provides a Connect/Express middleware that can be used to enable CORS with various options
+ - <b>Node</b> - Javascript code runtime environment 
+ - <b>Express</b> - Fast, unopinionated, minimalist web framework for Node.js that supports many functions including routing which is used by this application.
+ - <b>CORS</b> - A node.js package that provides a Connect/Express middleware that can be used to enable CORS with various options
      
 ## Features
 This application is made up of 10 main functions
