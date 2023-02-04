@@ -3,8 +3,8 @@
 ## Table of content
 
 - [Description](#description)
-- [Installation Guidelines](#installation)
-- [Technology Used](#technology)
+- [Installation Guidelines](#installation-guidelines)
+- [Technology Used](#technology-used)
 - [Features](#features)
 - [Roadmap of Future Improvements](#roadmap)
 - [Demo](#demo)
