@@ -3,7 +3,7 @@
 ## Table of content
 
 - [Description](#description)
-- [Installation Guidelines](#installation)
+- [Installation Guidelines](#installation guidelines)
 - [Features](#features)
 - [Roadmap of Future Improvements](#roadmap)
 - [Demo](#demo)
@@ -12,7 +12,7 @@
 ## Description
 This banking application was created with create-react-app and uses React including react-router-dom for navigation routing, Bootstrap and Javascript.  The application includes a home, login, create account and ability to deposit and withdraw from the account.   There is also an administrative screen that displays user account information.  The application is being hosted on AWS.   This application was built for the MIT fullstack web development program and demonstrates the use of technologies including react, node, express, and backend Mongodb database.
 
-## Installation Guidelines: 
+## Installation Guidelines 
 1) Clone this project to your local desktop.   There will be two subdirectories, bank-api (a back end server using node and express) and bank-react (a client side react project built with create-react-app.  
 
 ### Setting up the bank-react create-react-app application
