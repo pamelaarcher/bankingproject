@@ -39,8 +39,8 @@ YOU SHOULD NOW BE UP AND RUNNING.  Run through the application functionality.
 
 ## Technology Used
 The client side application requires the following frameworks and libraries.   It runs on top of React.
-    - Create_React_App - this installs the React framework along with react-dom and react-scripts and sets up a generic React project
-    - React-Router-Dom - allows for hash URL routing across the different functions
+    - <b> Create_React_App </b> - this installs the React framework along with react-dom and react-scripts and sets up a generic React project
+    - <b> React-Router-Dom </b> - allows for hash URL routing across the different functions
     - Bootstrap - CSS styling library    
     - Axios - Allows http calls to the backend api server
     
