@@ -3,7 +3,8 @@
 ## Table of content
 
 - [Description](#description)
-- [Installation Guidelines](#installation guidelines)
+- [Installation Guidelines](#installation)
+- [Technology Used](#technology)
 - [Features](#features)
 - [Roadmap of Future Improvements](#roadmap)
 - [Demo](#demo)
@@ -36,7 +37,7 @@ This banking application was created with create-react-app and uses React includ
 
 YOU SHOULD NOW BE UP AND RUNNING.  Run through the application functionality.  
 
-## Technology used:
+## Technology Used
 The client side application requires the following frameworks and libraries.   It runs on top of React.
     Create_React_App - this installs the React framework along with react-dom and react-scripts and sets up a generic React project
     React-Router-Dom - allows for hash URL routing across the different functions
@@ -48,7 +49,7 @@ The server side application requires the following frameworks and libraries.   I
     Express - Fast, unopinionated, minimalist web framework for Node.js that supports many functions including routing which is used by this application.
     CORS - A node.js package that provides a Connect/Express middleware that can be used to enable CORS with various options
      
-## Features:
+## Features
 This application is made up of 10 main functions
   - <b>index.js</b> which renders the main App component into the DOM
   - <b>app.js</b> is the parent component that manages the navigation routes to the children components.
