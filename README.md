@@ -3,22 +3,27 @@
 ## Table of content
 
 - [Description](#description)
-- [Setting Up and Running the Application](#setting)
+- [Installation Guidelines](#installation)
+- [Features]
 - [Roadmap of Future Improvements](#roadmap)
 - [Demo](#demo)
 - [License](#license)
 
 ## Description
-This banking application was created with create-react-app and uses React including react-router-dom for navigation routing, Bootstrap and Javascript.  The application includes a home, login, create account and ability to deposit and withdraw from the account.   There is also an administrative screen that displays user account information.  The application is being hosted on AWS.
+This banking application was created with create-react-app and uses React including react-router-dom for navigation routing, Bootstrap and Javascript.  The application includes a home, login, create account and ability to deposit and withdraw from the account.   There is also an administrative screen that displays user account information.  The application is being hosted on AWS.   This application was built for the MIT fullstack web development program and demonstrates the use of technologies including react, node, express, and backend Mongodb database.
 
-## Setting Up and Running The Application
-1) Create a react application using create-react-app.  
+## Installation Guidelines: 
+1) Clone this project to your local desktop.   There will be two subdirectories, bank-api (a back end server using node and express) and bank-react (a client side react project built with create-react-app.  
+2) Within the bank-react directory, run the following commands to create the create-react-app
+    npx create-react-app bank-react
+   
 2) Clone this repository on a local machine and move the files into the newly created react application,  replacing index.html, index.js and App.js that are automatically created with the create-react-app directory structure.
   - public directory includes index.html where a root div is created to render components with App as the parent.   It also includes an images directory where application images are stored
   - src directory includes both an assets/styles directory where the .css files are stored as well as the application component .js files.  These should be all copied to the src directory created by the new directory structure.
 3) Open a terminal window and go to the new directory created where the application files have now been copied.  Type in <b><i>npm start</i></b> to start up the application.  It will open in the browser using the assigned localhost address.
 
-### About
+## Technology used:
+## Features:
 This application is made up of 10 main files
   - <b>index.js</b> which renders the main App component into the DOM
   - <b>app.js</b> is the parent component that manages the navigation routes to the children components.
