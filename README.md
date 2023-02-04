@@ -14,17 +14,42 @@ This banking application was created with create-react-app and uses React includ
 
 ## Installation Guidelines: 
 1) Clone this project to your local desktop.   There will be two subdirectories, bank-api (a back end server using node and express) and bank-react (a client side react project built with create-react-app.  
-2) Within the bank-react directory, run the following commands to create the create-react-app
+
+### Setting up the bank-react create-react-app application
+1) Rename the new bank-react directory as we will be creating a new one with the same name with create-react-app.
+2) Within the bank-react directory, run the following commands to create the create-react-app application.  It will also install react, react-dom and react-scripts using its generic template.  Change to the new directory and run npm to install additional libraries.   This will create a new react application.   
     npx create-react-app bank-react
-   
-2) Clone this repository on a local machine and move the files into the newly created react application,  replacing index.html, index.js and App.js that are automatically created with the create-react-app directory structure.
-  - public directory includes index.html where a root div is created to render components with App as the parent.   It also includes an images directory where application images are stored
-  - src directory includes both an assets/styles directory where the .css files are stored as well as the application component .js files.  These should be all copied to the src directory created by the new directory structure.
-3) Open a terminal window and go to the new directory created where the application files have now been copied.  Type in <b><i>npm start</i></b> to start up the application.  It will open in the browser using the assigned localhost address.
+    cd bank-react
+    npm install bootstrap axios react-router-dom react-bootstrap
+3) Start up the create-react-app react generic application to make sure installation was successful.  It should start on localhost port 3000.  Then stop the app.
+4) Delete everything from the new app's public and src directory.   Copy the files from the downloaded project which you renamed.
+5) The bank-react application should be ready to run.  Run the npm command and make sure the app comes up on port 3000.  You cannot log in yet as it relies on the bank-api backend server so lets get that project set up.
+     npm start
+
+### Setting up the node backend API server application
+1) Go to the bank-api directory by issuing the command cd ../bank-api
+2) Run the command below to create a node app and install dependencies
+    npm init -y
+    npm install express cors mongodb
+3) Start up the server by issuing this command.   It will start the bank-api app on localhost:4000;
+    node index,js
+
+YOU SHOULD NOW BE UP AND RUNNING.  Run through the application functionality.  
 
 ## Technology used:
+The client side application requires the following frameworks and libraries.   It runs on top of React.
+    Create_React_App - this installs the React framework along with react-dom and react-scripts and sets up a generic React project
+    React-Router-Dom - allows for hash URL routing across the different functions
+    Bootstrap - CSS styling library    
+    Axios - Allows http calls to the backend api server
+    
+The server side application requires the following frameworks and libraries.   It runs on top of Node.
+    Node - Javascript code runtime environment 
+    Express - Fast, unopinionated, minimalist web framework for Node.js that supports many functions including routing which is used by this application.
+    CORS - A node.js package that provides a Connect/Express middleware that can be used to enable CORS with various options
+     
 ## Features:
-This application is made up of 10 main files
+This application is made up of 10 main functions
   - <b>index.js</b> which renders the main App component into the DOM
   - <b>app.js</b> is the parent component that manages the navigation routes to the children components.
   - <b>context.js</b> sets the user context.  It also includes the Card component which is used by other components to render the screen
